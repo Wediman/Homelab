@@ -8,8 +8,9 @@ This repository documents the creation of *lab.local*, a fully isolated Windows 
 | --- | --- | --- | --- |
 | DC01 | Domain Controller | Windows Server 2022 | The Brain: DNS, AD DS, and enforcer of domain law. |
 | USR02Pro | Workstation | Windows 11 Pro | Standard user client domain-joined for daily operational noise. |
-| Uer01Ent | Workstation | Windows 11 Enterprise | Premium target endpoint ready for enterprise policy testing. |
+| User01Ent | Workstation | Windows 11 Enterprise | Premium target endpoint ready for enterprise policy testing. |
 
+<img width="915" height="463" alt="image" src="https://github.com/user-attachments/assets/eb257d0b-7c1d-405c-8f87-20b2083dd30d" />
 
 ## 📂 Organizational Units & Group Policy (GPO) Structure
 To keep lab.local running smoothly without absolute entropy, the domain is split into four isolated Organizational Units (OUs), each tailored with its own set of Group Policy Objects:
