@@ -14,4 +14,8 @@
 | | Firewall on | Computer Config > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security (set each profile to On) | 
 | GPO-IT | No restrictions | |
 
-* Don't forget gpupgrade /force
+# Force Policy Refresh & Audit GPOs
+
+- Run gpupdate /force in CMD/PowerShell to fetch and apply the latest policies.
+
+- Run gpresult /r to verify linked GPOs show under Applied Group Policy Objects.
